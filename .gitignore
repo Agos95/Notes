@@ -1,0 +1,3 @@
+# dont upload folders since they may contain non free papers
+# downloaded using University credentials
+*/*
