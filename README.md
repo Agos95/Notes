@@ -1,9 +1,15 @@
+# Data Augmentation
+
+- [AugLy](https://github.com/facebookresearch/AugLy)
+
+
 # Data Science
 
 - [How to Win a Data Science Competition: Learn from Top Kagglers](https://www.coursera.org/learn/competitive-data-science)
 - [Exploratory Data Analysis: A Practical Guide and Template for Structured Data](https://towardsdatascience.com/exploratory-data-analysis-eda-a-practical-guide-and-template-for-structured-data-abfbf3ee3bd9)
 - [An Extensive Step by Step Guide to Exploratory Data Analysis](https://towardsdatascience.com/an-extensive-guide-to-exploratory-data-analysis-ddd99a03199e)
 - [Exploratory Data Analysis with Pandas and Python 3.x](https://www.udemy.com/course/exploratory-data-analysis-with-pandas-and-python-3x/)
+
 
 # Dicom
 
@@ -20,6 +26,7 @@
 - [Fundamentals of Biomedical Image Processing](https://elearning.uniroma1.it/pluginfile.php/509402/mod_resource/content/1/9783642158155-c1.pdf) ([pdf](Dicom/FundamentalsofBiomedicalImageProcessing.pdf))
 - [Managing DICOM images: Tips and tricks for the radiologist](https://pubmed.ncbi.nlm.nih.gov/22623808/)
 - [Introduction to image processing with scikit-image](http://justinbois.github.io/bootcamp/2015/lessons/l34_intro_to_image_processing.html)
+
 
 # Cardiology
 
@@ -38,6 +45,7 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - A deep-learning classifier identifies patients with clinical heart failure using whole-slide images of H&E tissue ([pdf](ML_medicine/pone.0192726.pdf))
 - [A Fully Convolutional Neural Network for Cardiac Segmentation in Short-Axis MRI](https://arxiv.org/abs/1604.00494) ([pdf](ML_medicine/1604.00494.pdf) - [Github](https://github.com/vuptran/cardiac-segmentation))
 
+
 # Computer Vision
 
 - [keras-yolo3](https://github.com/qqwweee/keras-yolo3)
@@ -48,6 +56,11 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [Cirlcle-Detection-DNN](https://github.com/hsouri/Cirlcle-Detection-CNN)
 - [Data Augmentation for Custom Object Detection](https://medium.com/predict/data-augmentation-for-custom-object-detection-15674966e0c8)
 
+
+# GPU programming
+
+- [Introducing Triton: Open-Source GPU Programming for Neural Networks](https://openai.com/blog/triton/)
+
 # Kernels
 
 - Exploring the feature space of character-level embeddings ([pdf](Kernels/2020_ESANN___Character_level__paper_.pdf))
@@ -55,6 +68,7 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [The Spectrum kernel: a string kernel for SVM protein classification](https://www.ics.uci.edu/~welling/teatimetalks/kernelclub04/spectrum.pdf)
 - [Random Fourier Features](https://github.com/tiskw/Random-Fourier-Features)
 - [Enhancing deep neural networks via multiple kernel learning](https://www.sciencedirect.com/science/article/pii/S0031320320300017) ([pdf](Kernels/1-s2.0-S0031320320300017-main.pdf))
+
 
 # LSTM
 
@@ -64,7 +78,6 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [How to Convert a Time Series to a Supervised Learning Problem in Python](https://machinelearningmastery.com/convert-time-series-supervised-learning-problem-python/)
 - [Time series forecasting](https://www.tensorflow.org/tutorials/structured_data/time_series)
 - [Understanding RNN and LSTM](https://towardsdatascience.com/understanding-rnn-and-lstm-f7cdf6dfc14e)
-
 
 # Machine Learning
 
@@ -79,6 +92,17 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [Hyperparameter tuning with Keras and Ray Tune](https://towardsdatascience.com/hyperparameter-tuning-with-keras-and-ray-tune-1353e6586fda)
 - [How to Implement Bayesian Optimization from Scratch in Python](https://machinelearningmastery.com/what-is-bayesian-optimization/)
 - [K Means using PyTorch](https://github.com/subhadarship/kmeans_pytorch)
+- [GaNDLF: A PyTorch Framework for Rapid & Reproducible Research in Healthcare](https://medium.com/pytorch/gandlf-a-pytorch-framework-for-rapid-reproducible-research-in-healthcare-a70a87f92a7c)
+
+
+# Neurology
+
+- [BrainGNN: Interpretable Brain Graph Neural Network for fMRI Analysis](https://www.biorxiv.org/content/10.1101/2020.05.16.100057v1) ([pdf](Neurology/2020.05.16.100057v1.full.pdf))
+- [Identification of early mild cognitive impairment using multi-modal data and graph convolutional networks](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-3437-6) ([pdf](Neurology/s12859-020-3437-6.pdf))
+- [Multi-Hypergraph Learning for Incomplete Multi-Modality Data](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5785578/) ([pdf](Neuroscience/nihms915528.pdf))
+- [Contrastive Learning of Medical Visual Representations from Paired Images and Text](https://arxiv.org/abs/2010.00747) ([pdf](Neuroscience/2010.00747.pdf))
+- [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) ([pdf](Neuroscience/2103.00020.pdf))
+- [Structural disconnections explain brain network dysfunction after stroke](https://www.biorxiv.org/content/10.1101/562165v2.full) ([pdf](Neuroscience/562165v2.full.pdf))
 
 
 # NLP
