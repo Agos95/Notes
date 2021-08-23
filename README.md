@@ -1,9 +1,36 @@
-# Data Augmentation
+# Useful links and papers
+
+This document collects useful links and papers discovered during myu activities. They are roughly grouped into different areas.
+
+- [Data Augmentation](#data-augmentation)
+- [Data Science](#data-science)
+- [Dicom](#dicom)
+- [Cardiology](#cardiology)
+- [Computer Vision](#computer-vision)
+- [GPU programming](#gpu-programming)
+- [Kernel Methods](#kernel-methods)
+- [LSTM](#lstm)
+- [Machine Learning](#machine-learning)
+- [Neurology](#neurology)
+  - [Stroke](#stroke)
+- [NLP](#nlp)
+- [Nvidia GTC21](#nvidia-gtc21)
+- [Predictive Maintenance](#predictive-maintenance)
+- [Time Series](#time-series)
+- [Transformers](#transformers)
+- [Visualization Tools](#visualization-tools)
+- [Miscellaneus](#miscellaneus)
+- [AWS](#aws)
+- [JAVA](#java)
+
+---
+
+## Data Augmentation
 
 - [AugLy](https://github.com/facebookresearch/AugLy)
 
 
-# Data Science
+## Data Science
 
 - [How to Win a Data Science Competition: Learn from Top Kagglers](https://www.coursera.org/learn/competitive-data-science)
 - [Exploratory Data Analysis: A Practical Guide and Template for Structured Data](https://towardsdatascience.com/exploratory-data-analysis-eda-a-practical-guide-and-template-for-structured-data-abfbf3ee3bd9)
@@ -11,7 +38,7 @@
 - [Exploratory Data Analysis with Pandas and Python 3.x](https://www.udemy.com/course/exploratory-data-analysis-with-pandas-and-python-3x/)
 
 
-# Dicom
+## Dicom
 
 - [Dicom standard browser](https://dicom.innolitics.com/ciods/mr-image)
 - [Managing DICOM images: Tips and tricks for the radiologist](https://www.ijri.org/article.asp?issn=0971-3026;year=2012;volume=22;issue=1;spage=4;epage=13;aulast=Varma) ([pdf](Dicom/Managing_DICOM_images_Tips_and_tricks_for_the_radi.pdf))
@@ -28,7 +55,7 @@
 - [Introduction to image processing with scikit-image](http://justinbois.github.io/bootcamp/2015/lessons/l34_intro_to_image_processing.html)
 
 
-# Cardiology
+## Cardiology
 
 - Direct delineation of myocardial infarction without contrast agents
 using a joint motion feature learning architecture ([pdf](ML_medicine/1-s2.0-S1361841518306960-main.pdf))
@@ -46,7 +73,7 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [A Fully Convolutional Neural Network for Cardiac Segmentation in Short-Axis MRI](https://arxiv.org/abs/1604.00494) ([pdf](ML_medicine/1604.00494.pdf) - [Github](https://github.com/vuptran/cardiac-segmentation))
 
 
-# Computer Vision
+## Computer Vision
 
 - [keras-yolo3](https://github.com/qqwweee/keras-yolo3)
 - [yolo-v4-tf.keras](https://github.com/taipingeric/yolo-v4-tf.keras)
@@ -57,11 +84,11 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [Data Augmentation for Custom Object Detection](https://medium.com/predict/data-augmentation-for-custom-object-detection-15674966e0c8)
 
 
-# GPU programming
+## GPU programming
 
 - [Introducing Triton: Open-Source GPU Programming for Neural Networks](https://openai.com/blog/triton/)
 
-# Kernels
+## Kernel Methods
 
 - Exploring the feature space of character-level embeddings ([pdf](Kernels/2020_ESANN___Character_level__paper_.pdf))
 - [Large Scale Kernel Methods](https://maelfabien.github.io/machinelearning/largescale/#)
@@ -70,7 +97,7 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [Enhancing deep neural networks via multiple kernel learning](https://www.sciencedirect.com/science/article/pii/S0031320320300017) ([pdf](Kernels/1-s2.0-S0031320320300017-main.pdf))
 
 
-# LSTM
+## LSTM
 
 - [Understanding LSTM Networks](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 - [Time Series Prediction with LSTM Recurrent Neural Networks in Python with Keras](https://machinelearningmastery.com/time-series-prediction-lstm-recurrent-neural-networks-python-keras/)
@@ -79,7 +106,7 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [Time series forecasting](https://www.tensorflow.org/tutorials/structured_data/time_series)
 - [Understanding RNN and LSTM](https://towardsdatascience.com/understanding-rnn-and-lstm-f7cdf6dfc14e)
 
-# Machine Learning
+## Machine Learning
 
 - [Deep Learning (I. Goodfellow, Y. Bengio, A. Courville)](https://www.deeplearningbook.org/)
 - [Dive into Deep Learning](https://d2l.ai/index.html)
@@ -93,9 +120,13 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [How to Implement Bayesian Optimization from Scratch in Python](https://machinelearningmastery.com/what-is-bayesian-optimization/)
 - [K Means using PyTorch](https://github.com/subhadarship/kmeans_pytorch)
 - [GaNDLF: A PyTorch Framework for Rapid & Reproducible Research in Healthcare](https://medium.com/pytorch/gandlf-a-pytorch-framework-for-rapid-reproducible-research-in-healthcare-a70a87f92a7c)
+- [How to visualize convolutional features in 40 lines of code](https://towardsdatascience.com/how-to-visualize-convolutional-features-in-40-lines-of-code-70b7d87b0030)
+- [Feature Visualization on Convolutional Neural Networks (Keras)](https://towardsdatascience.com/feature-visualization-on-convolutional-neural-networks-keras-5561a116d1af)
+- [Feature Visualization](https://distill.pub/2017/feature-visualization/)
+- [Understanding Semantic Segmentation with UNET](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
 
 
-# Neurology
+## Neurology
 
 - [BrainGNN: Interpretable Brain Graph Neural Network for fMRI Analysis](https://www.biorxiv.org/content/10.1101/2020.05.16.100057v1) ([pdf](Neurology/2020.05.16.100057v1.full.pdf))
 - [Identification of early mild cognitive impairment using multi-modal data and graph convolutional networks](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-020-3437-6) ([pdf](Neurology/s12859-020-3437-6.pdf))
@@ -104,8 +135,23 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) ([pdf](Neuroscience/2103.00020.pdf))
 - [Structural disconnections explain brain network dysfunction after stroke](https://www.biorxiv.org/content/10.1101/562165v2.full) ([pdf](Neuroscience/562165v2.full.pdf))
 
+### Stroke
 
-# NLP
+- [BCB Toolkit](http://toolkit.bcblab.com/)
+- [Common Behavioral Clusters and Subcortical Anatomy in Stroke](https://doi.org/10.1016/j.neuron.2015.02.027) ([pdf](Neuroscience/mmc2.pdf))
+- [Post-stroke deficit prediction from lesion and indirect structural and functional disconnection](https://pubmed.ncbi.nlm.nih.gov/32572442/) ([pdf](Neuroscience/awaa156.pdf))
+- [A Comparison of Shallow and Deep Learning Methods for Predicting Cognitive Performance of Stroke Patients From MRI Lesion Images](https://pubmed.ncbi.nlm.nih.gov/31417388/) ([pdf](Neuroscience/fninf-13-00053.pdf))
+- [Structural Disconnections Explain Brain Network Dysfunction after Stroke](https://pubmed.ncbi.nlm.nih.gov/31484066/) ([pdf](Neuroscience/nihms-1539133.pdf))
+- [Damage to the shortest structural paths between brain regions is associated with disruptions of resting-state functional connectivity after stroke](https://pubmed.ncbi.nlm.nih.gov/32007498/) ([pdf](Neuroscience/nihms-1556900.pdf))
+- [On the low dimensionality of behavioral deficits and alterations of brain network connectivity after focal injury](https://pubmed.ncbi.nlm.nih.gov/29357980/) ([pdf](Neuroscience/nihms969589.pdf))
+- [The WU-Minn Human Connectome Project: an overview](https://pubmed.ncbi.nlm.nih.gov/23684880/) ([pdf](Neuroscience/nihms482605.pdf))
+- [Linking Entropy at Rest with the Underlying Structural Connectivity in the Healthy and Lesioned Brain](https://pubmed.ncbi.nlm.nih.gov/28981635/) ([pdf](Neuroscience/bhx176.pdf))
+- [A low-dimensional structure of neurological impairment in stroke](https://pubmed.ncbi.nlm.nih.gov/34136813/) ([pdf](Neuroscience/fcab119.pdf))
+- [Advanced lesion symptom mapping analyses and implementation as BCBtoolkit](https://academic.oup.com/gigascience/article/7/3/giy004/4838040) ([pdf](Neuroscience/giy004.pdf))
+- [Brain disconnections link structural connectivity with function and behaviour](https://www.nature.com/articles/s41467-020-18920-9) ([pdf](Neuroscience/s41467-020-18920-9.pdf))
+
+
+## NLP
 
 - [Topic Modelling in Python with NLTK and Gensim](https://towardsdatascience.com/topic-modelling-in-python-with-nltk-and-gensim-4ef03213cd21)
 - [Topic Modeling in Python: Latent Dirichlet Allocation (LDA)](https://towardsdatascience.com/end-to-end-topic-modeling-in-python-latent-dirichlet-allocation-lda-35ce4ed6b3e0)
@@ -129,7 +175,7 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [A Million Tweets Are Worth a Few Points: Tuning Transformers for Customer Service Tasks](https://www.aclweb.org/anthology/2021.naacl-main.21/) ([pdf](NLP/2021.naacl-main.21.pdf))
 
 
-# Nvidia GTC21
+## Nvidia GTC21
 
 - [GTC 2021](https://gtc21.event.nvidia.com/)
 - [1x1-Convolutions by Random Ternary Matrices [E31454]](https://gtc21.event.nvidia.com/media/1_0el5ttae)
@@ -143,7 +189,7 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [Accelerated ETL, Training and Inference of Recommender Systems on the GPU with Merlin, HugeCTR, NVTabular, and Triton [S31830]](https://gtc21.event.nvidia.com/media/1_6v5scqwv)
 
 
-# Predictive Maintenance
+## Predictive Maintenance
 
 - [A systematic literature review of machine learning methods applied to predictive maintenance](https://www.researchgate.net/publication/335644027_A_systematic_literature_review_of_machine_learning_methods_applied_to_predictive_maintenance) ([pdf](PredictiveMaintenance/1-s2.0-S0360835219304838-main.pdf))
 - [Machine Learning for Predictive Maintenance: A Multiple Classifier Approach](https://ieeexplore.ieee.org/document/6879441) ([pdf](PredictiveMaintenance/06879441.pdf))
@@ -154,7 +200,7 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [On the Use of LSTM Networks for Predictive Maintenance in Smart Industries](https://ieeexplore.ieee.org/document/8784003)
 - [Predictive Maintenance: Step 1 of 3, data preparation and feature engineering](https://gallery.azure.ai/Experiment/Predictive-Maintenance-Step-1-of-3-data-preparation-and-feature-engineering-2)
 
-# Time Series
+## Time Series
 
 - [How to Decompose Time Series Data into Trend and Seasonality](https://machinelearningmastery.com/decompose-time-series-data-trend-seasonality/)
 - [Helsinki Energy Demand Prediction](https://quan-possible.github.io/energy-demand-prediction/)
@@ -164,18 +210,18 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [tsfresh](https://tsfresh.readthedocs.io/en/latest/index.html)
 - [DTWNet](https://github.com/TideDancer/DTWNet)
 
-# Transformers
+## Transformers
 
 - [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
 - [ConvTransformer: A Convolutional Transformer Network for Video Frame Synthesis](https://arxiv.org/abs/2011.10185)
 - [LambdaNetworks: Modeling Long-Range Interactions Without Attention](https://arxiv.org/abs/2102.08602)
 - [Attention for time series forecasting and classification](https://towardsdatascience.com/attention-for-time-series-classification-and-forecasting-261723e0006d)
 
-# Visualization
+## Visualization Tools
 
 - [Visdom](https://github.com/fossasia/visdom)
 
-# Miscellaneus
+## Miscellaneus
 
 - Circular Hough Transform ([pdf](misc/9961___Simon_Pedersen_CircularHoughTransform.pdf))
 - [WND-CHARM](https://github.com/wnd-charm/wnd-charm) (multi-purpose image classifier)
@@ -183,10 +229,10 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 
 ---
 
-# AWS
+## AWS
 
 - [Building AI-powered forecasting automation with Amazon Forecast by applying MLOps](https://aws.amazon.com/it/blogs/machine-learning/building-ai-powered-forecasting-automation-with-amazon-forecast-by-applying-mlops/)
 
-# JAVA
+## JAVA
 
 - [Writing Parquet Records from Java](http://www.hydrogen18.com/blog/writing-parquet-records.html)
