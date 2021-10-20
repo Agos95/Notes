@@ -11,10 +11,12 @@ This document collects useful links and papers discovered during myu activities.
 - [Kernel Methods](#kernel-methods)
 - [LSTM](#lstm)
 - [Machine Learning](#machine-learning)
+- [Medical Imaging](#medical-imaging)
 - [Neurology](#neurology)
   - [Stroke](#stroke)
 - [NLP](#nlp)
 - [Nvidia GTC21](#nvidia-gtc21)
+- [Pytorch](#pytorch)
 - [Predictive Maintenance](#predictive-maintenance)
 - [Time Series](#time-series)
 - [Transformers](#transformers)
@@ -28,6 +30,7 @@ This document collects useful links and papers discovered during myu activities.
 ## Data Augmentation
 
 - [AugLy](https://github.com/facebookresearch/AugLy)
+- [Snorkel](https://www.snorkel.org/)
 
 
 ## Data Science
@@ -124,7 +127,12 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [Feature Visualization on Convolutional Neural Networks (Keras)](https://towardsdatascience.com/feature-visualization-on-convolutional-neural-networks-keras-5561a116d1af)
 - [Feature Visualization](https://distill.pub/2017/feature-visualization/)
 - [Understanding Semantic Segmentation with UNET](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
+- [Solving the Tensorflow Keras Model Loss Problem](https://towardsdatascience.com/solving-the-tensorflow-keras-model-loss-problem-fd8281aeeb11)
+- [Physics-based Deep Learning](http://physicsbaseddeeplearning.org/intro.html)
 
+## Medical Imaging
+
+- [A survey on deep learning in medical image analysis](https://www.sciencedirect.com/science/article/pii/S1361841517301135)
 
 ## Neurology
 
@@ -187,6 +195,12 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [PyTorch Performance Tuning Guide [S31831]](https://gtc21.event.nvidia.com/media/1_nctdc8sy)
 - [COVID-19 Lung CT Lesion Segmentation and Image Pattern Recognition with Deep Learning (Presented by NetApp) [SS33179]](https://gtc21.event.nvidia.com/media/1_evdmebsq)
 - [Accelerated ETL, Training and Inference of Recommender Systems on the GPU with Merlin, HugeCTR, NVTabular, and Triton [S31830]](https://gtc21.event.nvidia.com/media/1_6v5scqwv)
+
+## Pytorch
+
+- [From PyTorch to PyTorch Lightning — A gentle introduction](https://towardsdatascience.com/from-pytorch-to-pytorch-lightning-a-gentle-introduction-b371b7caaf09)
+- [A 3D multi-modal medical image segmentation library in PyTorch](https://github.com/black0017/MedicalZooPytorch)
+- [Computer Vision at Scale with Dask and PyTorch](https://towardsdatascience.com/computer-vision-at-scale-with-dask-and-pytorch-a18e17fc5bad)
 
 
 ## Predictive Maintenance
