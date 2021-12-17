@@ -63,8 +63,7 @@ This document collects useful links and papers discovered during myu activities.
 - Direct delineation of myocardial infarction without contrast agents
 using a joint motion feature learning architecture ([pdf](ML_medicine/1-s2.0-S1361841518306960-main.pdf))
 - Evaluation of current algorithms for segmentation of scar tissue from late Gadolinium enhancement cardiovascular magnetic resonance of the left atrium: an open-access grand challenge ([pdf](ML_medicine/1532-429X-15-105.pdf))
-- Segmentation of histological images and fibrosis identification with a
-convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
+- Segmentation of histological images and fibrosis identification with a convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [Deep Learning in Cardiology](https://arxiv.org/pdf/1902.11122.pdf) ([pdf](ML_medicine/1902.11122.pdf))
 - Benchmark for Algorithms Segmenting the Left Atrium From 3D CT and MRI Datasets ([pdf](ML_medicine/07029623.pdf))
 - [Deep Learning for Cardiac Image Segmentation: A Review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7066212/) ([pdf](ML_medicine/fcvm-07-00025.pdf))
@@ -142,6 +141,7 @@ convolutional neural network ([pdf](ML_medicine/1803.07301.pdf))
 - [Contrastive Learning of Medical Visual Representations from Paired Images and Text](https://arxiv.org/abs/2010.00747) ([pdf](Neuroscience/2010.00747.pdf))
 - [Learning Transferable Visual Models From Natural Language Supervision](https://arxiv.org/abs/2103.00020) ([pdf](Neuroscience/2103.00020.pdf))
 - [Structural disconnections explain brain network dysfunction after stroke](https://www.biorxiv.org/content/10.1101/562165v2.full) ([pdf](Neuroscience/562165v2.full.pdf))
+- [OViTAD: Optimized Vision Transformer to Predict Various Stages of Alzheimer's Disease Using Resting-State fMRI and Structural MRI Data](https://www.researchgate.net/publication/356590516_OViTAD_Optimized_Vision_Transformer_to_Predict_Various_Stages_of_Alzheimer's_Disease_Using_Resting-State_fMRI_and_Structural_MRI_Data) ([pdf](Neuroscience/2021.11.27.470184v1.full.pdf))
 
 ### Stroke
 
