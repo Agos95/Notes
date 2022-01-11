@@ -128,6 +128,7 @@ using a joint motion feature learning architecture ([pdf](ML_medicine/1-s2.0-S13
 - [Understanding Semantic Segmentation with UNET](https://towardsdatascience.com/understanding-semantic-segmentation-with-unet-6be4f42d4b47)
 - [Solving the Tensorflow Keras Model Loss Problem](https://towardsdatascience.com/solving-the-tensorflow-keras-model-loss-problem-fd8281aeeb11)
 - [Physics-based Deep Learning](http://physicsbaseddeeplearning.org/intro.html)
+- [Understand your Algorithm with Grad-CAM](https://towardsdatascience.com/understand-your-algorithm-with-grad-cam-d3b62fce353)
 
 ## Medical Imaging
 
